@@ -19,15 +19,19 @@
     .navbar-light{
         flex-wrap: wrap;
     }
+    header{
+        /* border: 2px solid; */
+        padding: 10px 20px;
+    }
 
     #home{
         background: url(landingImg.jpg);
-        height: 100vh;
+        height: auto;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-
+    
     @media(max-width:991px){
         .container-fluid{
             /* border: 2px solid; */
@@ -40,8 +44,6 @@
             margin: 5px auto;
             display: flex;
             justify-content: space-between;
-            /* padding-right: 30px; */
-            /* padding-left: 30px; */
         }
     }
     @media(max-width:768px){
@@ -121,10 +123,84 @@
           </nav>
     </header>
 
-    <section id="home" class="home">
+    <section id="home" class="py-5 " >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-md-start mt-3"> 
+                    <h1 style="font-size: 4rem;"><span class="text-success">Organic</span> Foods <br> at Your <br> <span class="fw-bold">Doorsteps</span></h1>
+                    <p class="text-muted fs-4">Dignissim massa diam elementum.</p>
+                    <!-- Buttons -->
+                     <div class="d-flex align-items-center gap-3">
+                        <button class="btn btn-success rounded-pill btn-lg " style="font-size: 1.2rem;">START SHOPPING</button>
+                        <button  class="btn btn-dark rounded-pill btn-lg" style="font-size: 1.2rem;">JOIN NOW</button>
+                     </div>
+                </div>
+            </div>
 
+            <div class="row mt-5">
+                <div class="col-12 d-flex gap-4">
+                    <div>
+                        <h4 style="font-size: 2rem;">14k+</h4>
+                        <h4 style="font-size: 1.1rem;">PRODUCT <br> VARIETY</h4>
+                    </div>
+                    <div>
+                        <h4 style="font-size: 2rem;">50k+</h4>
+                        <h4 style="font-size: 1.1rem;">HAPPY <br> CUSTOMERS</h4>
+                    </div>
+                    <div>
+                        <h4 style="font-size: 2rem;">10k+</h4>
+                        <h4 style="font-size: 1.1rem;">STORE LOCATIONS</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <div class=" pt-2 d-flex align-items-start gap-3 justify-content-center" style="background-color:rgb(119, 177, 32); color: white; padding: 10px;" >
+                            <i class="fa-solid fa-arrow-up-right-from-square fs-4"></i>
+                            <div>
+                                <h1 style="font-size: 1.5rem;">Fresh from form</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class=" pt-2 d-flex gap-2 justify-content-center me-auto" style="background-color:rgb(67, 63, 63); color: white; padding: 10px;" >
+                            <i class="fa-brands fa-pagelines fs-4"></i>
+                            <div>
+                                <h1 style="font-size: 1.5rem;">100% Organic</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class=" pt-2 d-flex gap-2 justify-content-center" style="background-color:orangered; color: white; padding: 10px;" >
+                            <i class="fa-solid fa-truck fs-4"></i>
+                            <div>
+                                <h1 style="font-size: 1.5rem;">Free delovery</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+
+            
+                </div>
+            </div>
+        </div>
+       
     </section>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
+
+<!-- 
+<div class="border border-2 border-danger d-flex align-items-center ">
+    <h1>Organic Foods at Your Doorsteps</h1>
+    <h3>Dignissim massa diam elementum.</h3>
+    <div>
+        <button>START SHOPPING</button>
+        <button>JOIN NOW</button>
+    </div> -->
